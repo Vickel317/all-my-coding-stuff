@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ikkudo Ichi</title>
+        <link rel="stylesheet" href="../CSS/style.css"> <!--Linking the Index HTML to Home CSS-->
+        <style>
+            .content { 
+            text-align: center;
+            background-image: url(../Image/woodtable.jpeg);
+            background-size: cover;
+            color:#ffffff;
+            text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0),
+            1px 1px 0 rgb(0, 0, 0); /*To give the text an outline so it'd make the user read it better*/
+            padding: 20px;
+            margin-top: 100px; /*To make the sign align in the middle*/
+            margin-left: 25%;
+            margin-right: 25%;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 25px;
+            }
+
+            @media (min-height: 768px){
+            .content{
+            margin-top: 20%;
+            margin-left: 15%;
+            margin-right:15%; /*To make the sign align in the middle*/
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <!--The nav class is used for the navigation bar (Picture of Ikkudo Ichi, Home, and Menu)-->
+        <nav class="navbar">
+            <ul> <!--Linking each button to change the direction-->
+                <li><a href="https://www.centralparkjakarta.com/directory-tenant-list/ikkudo/"><img src="../Image/ikkudo.png" id="ikkudopng" width="63px" class="logo"></a></li>
+                <li><a href="index.html"><h1>Home</h1></a></li>
+                <li><a href="menupage.html"><h1>Menu</h1></a></li>
+            </ul>
+        </nav>
+        <div>
+            <!--Content of the floating wood sign-->
+            <div class="content">
+                <h1>Ikkudo Ichi</h1>
+                <h2>Central Park</h2>
+                <h3><p>Lovely restaurant in the mall for ramen & Japanese dishes in a classy setting</p></h3>
+                <div class="first">
+                    <h3>First time here?</h3>
+                    <label>
+                        <input type="radio" name="answer" id="ans1" value="yes">
+                        <label for="ans1">Yes</label><br>
+                        <input type="radio" name="answer" id="ans2" value="no">
+                        <label for="ans2">No</label>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!--Footer used for their Instagram button on bottom left-->
+        <footer class="footer">
+            <div class="sosmed">
+            <a href="https://www.instagram.com/ikkudoichi/">
+                <img src="../Image/Instagram_icon.png" width="70px" class="insta">
+                <h3>Follow us on Instagram!</h3>
+            </div>
+        </footer>
+    </body>
+</html>

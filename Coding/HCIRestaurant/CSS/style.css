@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    background-position:center;
+    background-size: 100%;
+    background-image: url('../Image/ikkudoramen.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* To make sure the background stay still and won't duplicate itself to fill the page*/
+    font-family: 'Courier New', Courier, monospace; /* The font that's used for everything*/
+}
+@media (min-height: 768px){ /*blabla*/
+    body{
+        background-size: cover;
+    }
+    .footer{
+        position: fixed;
+        padding: 10px;
+        text-size-adjust:inherit;
+    }
+}
+/* CSS for navigation bar*/
+.navbar{
+    background-color: #BC1E24;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #9d1c20;
+} 
+.navbar li{
+    float:left;
+    list-style-type: none;
+}
+
+/* Instagram button*/
+.footer {
+    position:fixed;
+    width: 10%;
+    left:0;
+    bottom:0;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+    background-color: rgb(0 0 0 / .5);
+    background-position: 100% 200%;;
+}
+/*To remove the color and underlined hyperlink*/
+.footer a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    background-position:center;
+    background-size: 100%;
+    background-image: url('../Image/ikkudoramen.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace; /* Everything is same as HomeCSS except table stuff*/
+}
+.navbar{
+    background-color: #BC1E24;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #9d1c20;
+} 
+.navbar li{
+    float:left;
+    list-style-type: none;
+}
+/*----------------------------------------------------------------------------------*/
+.table {
+    text-align: center;
+    margin:0 auto; /* Centering table in the middle of the page*/
+    margin-top: 70px;
+}
+#description {
+    padding: 20px;
+}
+#pic {
+    padding-top: 20px;
+}
+/*----------------------------------------------------------------------------------*/
+.footer {
+    position:fixed;
+    width: 10%;
+    left:0;
+    bottom:0;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}

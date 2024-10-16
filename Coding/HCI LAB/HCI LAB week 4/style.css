@@ -1,0 +1,19 @@
+#pr {
+    color: pink;
+}
+.odd {
+    background-color: gray;
+    color: blue;
+}
+.even {
+    background-color: black;
+    color: pink;
+}
+/* comment*/
+p {
+    border: dotted 10px;
+    border-color:black;
+    border-radius: 5px;
+    margin: 50px;
+    border-top-color: teal;
+}
